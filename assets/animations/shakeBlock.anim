@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "shakeBlock",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.2,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "angle": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.05,
+          "value": -18.82
+        },
+        {
+          "frame": 0.1,
+          "value": 0
+        },
+        {
+          "frame": 0.15,
+          "value": 18.251
+        },
+        {
+          "frame": 0.2,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}
