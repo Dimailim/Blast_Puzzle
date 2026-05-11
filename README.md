@@ -1,6 +1,6 @@
 # Blast puzzle
 
-[![Play Demo](https://img.shields.io/badge/Demo-Play%20Now-brightgreen)](YOUR_GITHUB_PAGES_LINK_HERE)
+[![Play Demo](https://img.shields.io/badge/Demo-Play%20Now-brightgreen)](https://dimailim.github.io/Blast_Puzzle/)
 
 ## Overview
 This project is a prototype of a **Blast** puzzle game developed using the **Cocos Creator 2.4.15** engine.
@@ -27,7 +27,7 @@ To run and edit this project, you need Cocos Creator version **2.4.15**:
 You can get the project files in two ways:
 - **Git**: Clone the repository using the command:
   ```bash
-  git clone https://github.com/your-username/your-repo-name.git
+  git clone https://github.com/Dimailim/Blast_Puzzle
   ```
 - **ZIP**: Download the project as a ZIP archive from the GitHub interface and extract it.
 
@@ -47,9 +47,10 @@ The `assets/scripts` directory is organized as follows:
 - **core/**: Contains the core game logic and data models. This is the "Model" layer, independent of the rendering engine. It handles board state, match detection, and progress tracking.
 - **view/**: Handles the visual representation and rendering via the Cocos engine. This is the "View" layer, responsible for animations, UI updates, and displaying tile states.
 - **utils/**: Contains general utility classes. Currently, includes a `Random` class, abstracted to allow for easy mocking during Unit Testing.
-- **tests/**: Contains Unit tests for the core logic parts. It uses the **Jest** framework for testing independent logic (Models) without the need for the Cocos engine environment.
 - **GameManager.ts**: Acts as the **Orchestrator/Controller**. It links the `core` logic with the `view` components, managing the game flow and event handling.
 
+In root diretory:
+- **tests/**: Contains Unit tests for the core logic parts. It uses the **Jest** framework for testing independent logic (Models) without the need for the Cocos engine environment.
 ---
 
 ## Level Configuration
